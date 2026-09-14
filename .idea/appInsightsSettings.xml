@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.aistudio.traders.aixm" />
+                  <option name="mobileSdkAppId" value="1:118342562975:android:9a5516ec494650374c9eaa" />
+                  <option name="projectId" value="traders-70eab" />
+                  <option name="projectNumber" value="118342562975" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

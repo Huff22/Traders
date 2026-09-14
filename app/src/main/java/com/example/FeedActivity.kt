@@ -1,8 +1,8 @@
 package com.example
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
@@ -12,7 +12,7 @@ import com.example.databinding.ActivityFeedBinding
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-class FeedActivity : AppCompatActivity() {
+class   FeedActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityFeedBinding
     private val viewModel: FeedViewModel by viewModels()
@@ -99,6 +99,7 @@ class FeedActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun observeViewModel() {
         lifecycleScope.launch {
             viewModel.filteredListings.collectLatest { listings ->
